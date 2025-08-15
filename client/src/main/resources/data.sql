@@ -1,0 +1,38 @@
+insert into CLIENT(name, type, status) values ('Naveen', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Rajani', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Sahana', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Nate', 'Corporate', 'Inactive');
+insert into CLIENT(name, type, status) values ('Ricky', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Charlie', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Vijay', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Pari', 'Individual', 'Inactive');
+insert into CLIENT(name, type, status) values ('Hemachand', 'Corporate', 'Active');
+insert into CLIENT(name, type, status) values ('Sandra', 'Corporate', 'Active');
+
+insert into PROPERTY(address, city, client_id) values ('1302, 1st Ave, Seattle', 'Seattle', 1);
+insert into PROPERTY(address, city, client_id) values ('1303, 1st Ave, Chicage', 'Chicago', 2);
+insert into PROPERTY(address, city, client_id) values ('1304, 1st Ave, CH', 'Charlotte', 3);
+insert into PROPERTY(address, city, client_id) values ('1305, 1st Ave, NY', 'New York', 4);
+insert into PROPERTY(address, city, client_id) values ('1303, 2nd Ave, Seattle', 'Seattle', 5);
+insert into PROPERTY(address, city, client_id) values ('3123, 3rd Ave, Chicage', 'Chicago', 6);
+insert into PROPERTY(address, city, client_id) values ('3712, 4th Ave', 'Charlotte', 7);
+insert into PROPERTY(address, city, client_id) values ('1001, 1st Ave', 'New York', 8);
+insert into PROPERTY(address, city, client_id) values ('4030, 1st Ave, Seattle', 'Seattle', 9);
+insert into PROPERTY(address, city, client_id) values ('1, 1st Ave, Chicage', 'Chicago', 10);
+insert into PROPERTY(address, city, client_id) values ('2, 1st Ave, CH', 'Charlotte', 2);
+insert into PROPERTY(address, city, client_id) values ('3, 1st Ave, NY', 'New York', 3);
+insert into PROPERTY(address, city, client_id) values ('4, 1st Ave, CH', 'Charlotte', 4);
+insert into PROPERTY(address, city, client_id) values ('5, 1st Ave, NY', 'New York', 5);
+
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(100000, '2010-01-01', 2, 2);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(150101, '2014-01-01', 3, 3);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(250000, '2010-01-01', 4, 4);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(2401329, '2010-01-01', 5, 2);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(3123243, '2014-01-01', 6, 3);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(3243234, '2010-01-01', 7, 4);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(1231233, '2010-01-01', 8, 2);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(4234234, '2014-01-01', 9, 3);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(3223423, '2010-01-01', 10, 4);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(5433455, '2010-01-01', 2, 2);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(3452134, '2014-01-01', 3, 3);
+insert into LOAN(LOAN_BALANCE, ORIGINATION_DATE, LOAN_CLIENT_ID, PROPERTY_ID) values(5345234, '2010-01-01', 4, 4);
